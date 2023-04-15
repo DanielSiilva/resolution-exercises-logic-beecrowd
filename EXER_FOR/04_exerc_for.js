@@ -1,6 +1,7 @@
 // imprimir todas as tabuadas do número 1 ao 10 
 
 // Função para fazer a tabuada de qualquer numero
+
 function imprimeTabuada(n){
     for(let i = 0; i < 10; i ++){
         let row = `${n} * ${i} = ${n * i}`
@@ -14,6 +15,6 @@ imprimeTabuada(3)
 
 for (let i = 1; i < 10 ; i++){
     imprimeTabuada(i)
-    
+
     console.log("");
 }
